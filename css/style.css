@@ -443,7 +443,7 @@ section.callaction {
 /* Clients
 ------------------------------------ */
 #clients {
-  padding: 67px 0; }
+  padding: 0px 0px; }
   #clients .client .img {
     height: 76px;
     width: 138px;
@@ -1460,7 +1460,7 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
+ /*============================= */
 
 .clear-marginbot{
 	margin-bottom:0;
@@ -1500,8 +1500,7 @@ article img.pull-right, article .align-right{
 }
 
 
-/*  Media queries 
-============================= */
+/*  Media queries ============================= */
 
 @media (min-width: 768px) and (max-width: 979px) {
 
