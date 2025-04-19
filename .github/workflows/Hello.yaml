@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - 01april2025
+
+jobs:
+  Printhello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Print Hello world
+        run: echo "Hello world"
